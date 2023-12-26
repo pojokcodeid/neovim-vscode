@@ -177,5 +177,8 @@
     "**/.factorypath": true
   },
   "window.menuBarVisibility": "compact",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line"
 }
