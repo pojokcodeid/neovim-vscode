@@ -68,42 +68,42 @@
       ]
     },
     {
+      "key": "g",
+      "name": "Toggle Git",
+      "type": "command",
+      "command": "workbench.view.scm"
+    },
+    {
+      "key": "d",
+      "name": "Toggle Debug",
+      "type": "command",
+      "command": "workbench.view.debug"
+    },
+    {
+      "key": "x",
+      "name": "Toggle Extensions",
+      "type": "command",
+      "command": "workbench.view.extensions"
+    },
+    {
       "key": "e",
       "name": "Toggle Explorer",
       "type": "command",
-      // "command": "workbench.action.toggleSidebarVisibility"
-      "bindings": [
-        {
-          "key": "e",
-          "name": "Toggle File Explorer",
-          "type": "command",
-          "command": "workbench.view.explorer"
-        },
-        {
-          "key": "f",
-          "name": "Toggle Find",
-          "type": "command",
-          "command": "workbench.view.search"
-        },
-        {
-          "key": "g",
-          "name": "Toggle Git",
-          "type": "command",
-          "command": "workbench.view.scm"
-        },
-        {
-          "key": "d",
-          "name": "Toggle Debug",
-          "type": "command",
-          "command": "workbench.view.debug"
-        },
-        {
-          "key": "x",
-          "name": "Toggle Extensions",
-          "type": "command",
-          "command": "workbench.view.extensions"
-        }
-      ]
+      "command": "workbench.action.toggleSidebarVisibility"
+      // "bindings": [
+      //   {
+      //     "key": "e",
+      //     "name": "Toggle File Explorer",
+      //     "type": "command",
+      //     "command": "workbench.view.explorer"
+      //   },
+      //   {
+      //     "key": "f",
+      //     "name": "Toggle Find",
+      //     "type": "command",
+      //     "command": "workbench.view.search"
+      //   },
+      // ]
     },
     {
       "key": "f",
