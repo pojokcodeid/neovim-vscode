@@ -1,182 +1,22 @@
 {
-  "explorer.autoReveal": true,
-  "editor.fontSize": 16,
+  "window.commandCenter": false,
+  "workbench.editor.enablePreview": false,
+  "editor.fontSize": 17,
   "editor.lineHeight": 1.7,
-  "editor.fontFamily": "'Hasklug Nerd Font','Iosevka Nerd Font','Source Code Pro',Consolas,'Source Code Pro','Fantasque Sans Mono'",
-  "editor.fontLigatures": true,
-  "workbench.startupEditor": "none",
   "scm.inputFontSize": 17,
   "debug.console.fontSize": 17,
   "markdown.preview.fontSize": 17,
-  "terminal.integrated.fontSize": 14,
-  "editor.minimap.autohide": true,
-  "editor.minimap.scale": 1,
-  "timeline.pageOnScroll": true,
-  "editor.cursorBlinking": "expand",
-  "editor.stickyScroll.enabled": true,
-  "editor.fontVariations": false,
-  "editor.accessibilitySupport": "off",
-  "terminal.integrated.fontWeight": "normal",
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.enableSmartCommit": true,
-  "editor.linkedEditing": true,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "codeium.enableConfig": {
-    "*": true,
-    "markdown": true,
-    "ignore": true,
-    "properties": true,
-    "xml": true,
-    "plaintext": true,
-    "cfml": true
-  },
-  "auto-close-tag.excludedTags": [
-    "area",
-    "base",
-    "br",
-    "col",
-    "command",
-    "embed",
-    "hr",
-    "img",
-    "input",
-    "keygen",
-    "link",
-    "meta",
-    "param",
-    "source",
-    "track",
-    "wbr",
-    "cfabort",
-    "cfapplication",
-    "cfargument",
-    "cfassociate",
-    "cfbreak",
-    "cfchartdata",
-    "cfcollection",
-    "cfcontent",
-    "cfcontinue",
-    "cfcookie",
-    "cfdirectory",
-    "cfdump",
-    "cfelse",
-    "cfelseif",
-    "cferror",
-    "cfexecute",
-    "cfexit",
-    "cffile",
-    "cfflush",
-    "cfheader",
-    "cfhttpparam",
-    "cfimage",
-    "cfimport",
-    "cfinclude",
-    "cfindex",
-    "cfinput",
-    "cfinvokeargument",
-    "cflocation",
-    "cflog",
-    "cfloginuser",
-    "cflogout",
-    "cfmailparam",
-    "cfobject",
-    "cfobjectcache",
-    "cfparam",
-    "cfpop",
-    "cfprocessingdirective",
-    "cfprocparam",
-    "cfprocresult",
-    "cfproperty",
-    "cfqueryparam",
-    "cfregistry",
-    "cfreportparam",
-    "cfrethrow",
-    "cfreturn",
-    "cfschedule",
-    "cfspreadsheet",
-    "cfsearch",
-    "cfset",
-    "cfsetting",
-    "cfthrow",
-    "cfwddx"
-  ],
-  "editor.fontWeight": "normal",
-  "editor.tabSize": 2,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editor.enablePreview": false,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "extensions.ignoreRecommendations": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "window.zoomLevel": 1,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact",
-    "css": "css",
-    "ejs": "html"
-  },
-  "auto-rename-tag.activationOnLanguage": [
-    "*",
-    "javascriptreact",
-    "typescriptreact",
-    "css"
-  ],
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.rulers": [80],
-  // "workbench.iconTheme": "material-icon-theme",
-  "files.associations": {
-    "*.ejs": "html"
-  },
-  "html.format.templating": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editorAssociations": {
-    "*.gz": "default"
-  },
-  "errorLens.gutterIconSet": "circle",
-  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.fontSize": 17,
   "git.openRepositoryInParentFolders": "never",
-  "workbench.iconTheme": "pcode-icon-theme-dark-spesifik",
-  "editor.defaultColorDecorators": true,
-  "security.allowedUNCHosts": ["wsl.localhost"],
-
-  "javascript.preferences.importModuleSpecifierEnding": "js",
-
-  // "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "none",
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.enabled": false,
-  "jest.autoRun": "off",
-  "symbols.hidesExplorerArrows": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "code-runner.runInTerminal": true,
+  "extensions.ignoreRecommendations": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'Hasklug Nerd Font',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "workbench.productIconTheme": "iconcarbon",
   "window.menuBarVisibility": "compact",
-  "window.commandCenter": false,
   "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Jetbrains Dracula Theme",
+  // start neovim config
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
@@ -205,12 +45,15 @@
     },
     {
       "key": "t",
-      "name": "Toggle Terminal",
-      "type": "commands",
-      "commands": [
-        "workbench.action.togglePanel",
-        "workbench.action.terminal.focus"
-      ]
+      "name": "Open Terminal",
+      "type": "command",
+      "command": "workbench.action.terminal.focus"
+    },
+    {
+      "key": "T",
+      "name": "Close Panel",
+      "type": "command",
+      "command": "workbench.action.togglePanel"
     },
     {
       "key": "b",
@@ -250,38 +93,32 @@
     {
       "key": "g",
       "name": "Toggle Git",
-      "type": "commands",
-      "commands": [
-        "workbench.action.toggleSidebarVisibility",
-        "workbench.view.scm"
-      ]
+      "type": "command",
+      "command": "workbench.view.scm"
     },
     {
       "key": "d",
       "name": "Toggle Debug",
-      "type": "commands",
-      "commands": [
-        "workbench.action.toggleSidebarVisibility",
-        "workbench.view.debug"
-      ]
+      "type": "command",
+      "command": "workbench.view.debug"
     },
     {
       "key": "x",
       "name": "Toggle Extensions",
-      "type": "commands",
-      "commands": [
-        "workbench.action.toggleSidebarVisibility",
-        "workbench.view.extensions"
-      ]
+      "type": "command",
+      "command": "workbench.view.extensions"
     },
     {
       "key": "e",
-      "name": "Toggle Explorer",
-      "type": "commands",
-      "commands": [
-        "workbench.action.toggleSidebarVisibility",
-        "workbench.view.explorer"
-      ]
+      "name": "Open Explorer",
+      "type": "command",
+      "command": "workbench.view.explorer"
+    },
+    {
+      "key": "E",
+      "name": "Close Sidebar",
+      "type": "command",
+      "command": "workbench.action.toggleSidebarVisibility"
     },
     {
       "key": "f",
@@ -353,5 +190,9 @@
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
-  }
+  },
+  // end neovim config
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line"
 }
