@@ -65,6 +65,16 @@
     "key": "ctrl+y",
     "command": "redo"
   },
+  // indent line
+  {
+    "key": "ctrl+]",
+    "command": "editor.action.indentLines"
+  },
+  // outdent line
+  {
+    "key": "ctrl+[",
+    "command": "editor.action.outdentLines"
+  },
   {
     "key": "shift+space",
     "command": "whichkey.show"
