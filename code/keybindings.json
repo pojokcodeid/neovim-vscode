@@ -1,0 +1,72 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.navigateRight"
+  },
+  // view toggle panel visibility
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.togglePanel"
+  },
+  // toggle primary side bar
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  // select all text in editor
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll"
+  },
+  // copy selected text in editor
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  // paste selected text in editor
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction"
+  },
+  // undo
+  {
+    "key": "ctrl+z",
+    "command": "undo"
+  },
+  // redo
+  {
+    "key": "ctrl+shift+z",
+    "command": "redo"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "redo"
+  },
+  {
+    "key": "shift+space",
+    "command": "whichkey.show"
+  }
+]
