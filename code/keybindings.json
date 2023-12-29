@@ -1,5 +1,38 @@
 // Place your key bindings in this file to override the defaults
 [
+  // space            -> whichkey
+  // ctrl + n         -> new file | focus explorer
+  // ctrl + shift + n -> new folder | focus explorer
+  // CTRL + 1         -> focus editor
+  // CTRL + 0         -> focus explorer
+  // CTRL + `         -> focus terminal
+  // ctrl + arrow     -> navigate focus
+  // ctrl + j         -> toggle panel
+  // ctrl + b         -> toggle sidebar
+  // ctrl + a         -> select all text
+  // ctrl + c         -> copy
+  // ctrl + v         -> paste
+  // ctrl + x         -> cut
+  // ctrl + z         -> undo
+  // ctrl + y         -> redo
+  // ctrl + s         -> save
+  // ctrl + shift + z -> redo
+  // ctrl + ]         -> indent line
+  // ctrl + [         -> unindent line
+  // shift + alt +up/down -> duplicate line
+  // alt + up/down    -> move line
+  // ctrl + w q       -> close editor
+  // ctrl + shift + t -> split terminal | fokus trminal
+  // ctrl + shift + k -> close terminal | focus terminal
+  // alt + arraow     -> navigate focus terminal | focus trminal
+  // ctrl + shift + m -> decrease size panel atau increase sidebar | focus panel
+  // ctrl + shift + p -> increase size panel atau decrease sidebar | focus panel
+  // ctrl + PageUp/Down -> next/previous tab
+  {
+    "key": "space",
+    "command": "whichkey.show",
+    "when": "sideBarFocus && !inputFocus && !whichkeyActive"
+  },
   {
     "key": "ctrl+n",
     "command": "explorer.newFile",
@@ -84,6 +117,87 @@
   {
     "key": "shift+alt+up",
     "command": "editor.action.copyLinesUpAction"
+  },
+  // close editor
+  {
+    "key": "ctrl+w q",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  // resize panel
+  /* {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.decreaseViewSize"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.increaseViewSize"
+  }, */
+  // split terminal
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  // kill terminal focus
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  },
+  // navigate split terminal
+  // default alt + arrow key
+
+  // increase height panel if terminal is open and terminal is focus
+  {
+    "key": "ctrl+shift+m",
+    "command": "workbench.action.increaseViewHeight",
+    "when": "terminalIsOpen && terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.decreaseViewHeight",
+    "when": "terminalIsOpen && terminalFocus"
+  },
+  // increase width if sidebar is visible and sidebar is focus
+  {
+    "key": "ctrl+shift+m",
+    "command": "workbench.action.increaseViewWidth",
+    "when": "sideBarVisible && sideBarFocus"
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.decreaseViewWidth",
+    "when": "sideBarVisible && sideBarFocus"
+  },
+  // cut line
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "when": "editorTextFocus"
+  },
+  // open keyboard shortcuts
+  {
+    "key": "ctrl+k ctrl+s",
+    "command": "workbench.action.openGlobalKeybindings"
+  },
+  // pilih tab kiri dan kanan CTRL + PageUp / PageDown
+  // find word in editor
+  {
+    "key": "ctrl+f",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  // find and replace in editor
+  {
+    "key": "ctrl+h",
+    "command": "actions.findWithReplace",
+    "when": "editorFocus || editorIsOpen"
+  },
+  // set for activate tab button
+  {
+    "key": "tab",
+    "command": "-whichkey.triggerKey",
+    "when": "whichkeyVisible"
   },
   {
     "key": "shift+space",
